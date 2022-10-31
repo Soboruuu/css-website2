@@ -1,0 +1,106 @@
+html{background-color: #F0EBCE;}
+
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif; 
+    color:white;
+}
+
+h1{
+    font-size:3em;
+    margin: 20px auto 0 auto;
+    padding:10px;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    
+}
+
+.top-container{
+    
+    background-color: #F0EBCE;
+    position:relative;
+    background-color: #F0EBCE;
+    color:#395144;  
+}
+
+.pro{
+    text-decoration:underline;
+}
+
+.cloud_1{
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+
+.cloud_2{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+
+.mountain{
+    position:relative;
+    top:6px;
+}
+
+.profile{
+    background-color: #AA8B56;
+    margin:0;
+    padding:30px;
+}
+
+.profile_img{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    background-color: #395144;
+    margin:20px;
+}
+
+.skills{
+    background-color: #4E6C50;
+    padding:20px;
+    
+}
+
+.computer{
+    width:25%;
+    margin:0 20px 0 0;
+    
+    float:left;
+}
+
+.bike{
+    width:25%;
+    margin:0 0 0 20px;
+    float:right;
+}
+
+.skill-row{
+    width:50%;
+    margin:0 auto 20px auto;
+    padding:20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.bottom-container{
+    padding: 30px;
+    background-color: #062925;
+    
+}
+
+.contact-me{
+    padding:10px;
+    background-color:#395144;
+}
+
+
+a{
+    color:white;
+}
