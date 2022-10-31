@@ -1,0 +1,58 @@
+
+body{
+    margin:0;
+    font-family: cursive;
+}
+
+.top-container{
+    background-color: #395144;
+    height:200px;
+    text-align:center;
+    padding: 10px 500px 10px 200px;
+}
+
+.soboruuu_img{
+    width:200px;
+    height:200px;
+    margin:0 20px 0 20px;
+    border-radius: 100%;
+    background-color: #F0EBCE;
+}
+
+.soboruuu_img:hover{
+    background-color: white;
+}
+
+.top-container-text{
+    display:inline-block;
+    position:absolute;
+    padding-top:30px;
+    color: white;
+}
+
+.pro{
+    text-decoration:underline;
+}
+
+.mid-container{
+    background-color: #4E6C50;
+    height:200px;
+    margin:0;
+}
+
+.bot-container{
+    background-color: #AA8B56;
+    height:200px;
+    width:100%;
+}
+
+.final-container{
+    background-color: #F0EBCE;
+    height:360px;
+    width:100%;
+    text-align: center;
+}
+
+.mountain-img{
+
+}
