@@ -1,30 +1,26 @@
-html{background-color: #F0EBCE;}
+html{
+    background-color: #4E6C50;
+}
 
 body{
     margin:0;
     text-align: center;
     font-family: 'Hammersmith One', sans-serif; 
-    color:white;
+    color:#F0EBCE;
 }
 
 h1{
     font-size:3em;
-    margin: 20px auto 0 auto;
-    padding:10px;
 }
 
 h2{
     font-size: 1.5rem;
     font-weight: normal;
-    
 }
 
 .top-container{
-    
-    background-color: #F0EBCE;
     position:relative;
-    background-color: #F0EBCE;
-    color:#395144;  
+    background-color: #4E6C50;
 }
 
 .pro{
@@ -45,7 +41,13 @@ h2{
 
 .mountain{
     position:relative;
-    top:6px;
+    top:15px;
+}
+
+.introduction{
+    text-align: center;
+    width:300px;
+    margin:0 auto 0 auto;
 }
 
 .profile{
@@ -58,24 +60,33 @@ h2{
     width:200px;
     height:200px;
     border-radius: 100%;
-    background-color: #395144;
-    margin:20px;
+    background-color: #4E6C50;
+    
+}
+
+.profile_img:hover{
+    background-color: #F0EBCE;
+}
+
+.middle-container{
+    margin:10px;
 }
 
 .skills{
-    background-color: #4E6C50;
+    background-color: #F0EBCE;
     padding:20px;
+    color:#395144;
 }
 
 .computer{
-    width:15%;
+    width:25%;
     margin:0 20px 0 0;
     
     float:left;
 }
 
 .bike{
-    width:15%;
+    width:25%;
     margin:0 0 20px 0px;
     padding:0 0 20px 20px;
     float:right;
@@ -89,17 +100,48 @@ h2{
     line-height: 1.5;
 }
 
-.bottom-container{
-    padding: 30px;
-    background-color: #062925;
-}
 
 .contact-me{
     padding:10px;
-    background-color:#395144;
+    background-color:#4E6C50;
+    width:40%;
+    margin:40px auto 30px;
 }
 
+.bottom-container{
+    padding: 50px 0 20px;
+    background-color: #395144;
+}
 
 a{
-    color:white;
+    color:#F0EBCE;
+    margin: auto 10px 50px;
+    text-decoration: none;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Hammersmith One', sans-serif; 
+    color: #F0EBCE;
+    font-size: 1.2em;
+    background: #4E6C50;;
+    padding: 10px 20px 10px 20px;
+    margin: 30px auto auto auto;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #395144;
+    text-decoration: none;
+  }
+
+  .copyright{
+    font-size: 0.75rem;
+    padding:20px 0;
+  }
